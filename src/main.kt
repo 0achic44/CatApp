@@ -1,8 +1,8 @@
 fun main() {
     val binnie = Cat("Binnie", 10, 10)
     val clyde = Cat("Clyde", 5, 5)
-    binnie.walk()
-    clyde.walk()
+    binnie.walk(1)
+    clyde.walk(1)
     println(binnie)
     println(clyde)
 
@@ -11,9 +11,9 @@ fun main() {
     flathead.eat()
     flathead.eat()
     println(flathead)
-    cupra.walk()
-    cupra.walk()
-    cupra.walk()
-    cupra.walk()
+    cupra.walk(1)
+    cupra.walk(1)
+    cupra.walk(1)
+    cupra.walk(1)
     println(cupra)
 }
